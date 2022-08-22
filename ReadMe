@@ -1,0 +1,28 @@
+Question1:
+	Function could be run by using the script below: 
+	SELECT * FROM public.question1('2012-01-01', '2019-01-01');
+	
+	Short explanation about query:
+	Question solved by using 2 cursors, one for weeks, one for departments.
+	While iterating over cursor records, calculated averages inserted into a temp table.
+	Required records selected from temp table at the end of the function.
+
+Question2:
+	Function could be run by using the script below:
+	SELECT * FROM public.question2('2012-01-01', '2019-01-01');
+
+	Short explanation about query:
+	Question solved by using a cursor, to iterate over weeks.
+	While iterating over weeks, Items which provides " SUM(s."UnitSales") > 20 " are inserted into a temp table
+	Required items; which has 3 or more selling week are selected from temp table at the end of the function
+
+Question3:
+	I prepared 2 seperate functions, (question3_1 and question3_2), for this question, one for top 10 selling items for department, 
+	another one for top 10 selling items for class.
+	
+	Functions could be run by using the scripts below:
+	SELECT * FROM public.question3_1('2012-01-01', '2019-01-01');
+	SELECT * FROM public.question3_2('2012-01-01', '2019-01-01');
+
+Question4:
+	I am still working on it, although it is 90% completed.  
