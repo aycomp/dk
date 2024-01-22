@@ -23,6 +23,3 @@ Question3:
 	Functions could be run by using the scripts below:
 	SELECT * FROM public.question3_1('2012-01-01', '2019-01-01');
 	SELECT * FROM public.question3_2('2012-01-01', '2019-01-01');
-
-Question4:
-	I am still working on it, although it is 90% completed.  
